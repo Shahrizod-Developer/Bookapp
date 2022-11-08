@@ -4,7 +4,6 @@ import kotlinx.coroutines.flow.SharedFlow
 import uz.gita.book_app_io.data.local.entity.BookEntity
 
 
-//Created By Khayrullo Matkarimov  11/4/2022
 
 interface FavoriteViewModel {
 

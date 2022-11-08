@@ -3,13 +3,15 @@ package uz.gita.book_app_io.utils
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
+import android.os.Build
+import androidx.annotation.RequiresApi
 import uz.gita.book_app_io.App
 
 
-// Created by Jamshid Isoqov an 10/11/2022
 
 fun hasConnection(): Boolean = App.instance.hasConnection()
 
+@RequiresApi(Build.VERSION_CODES.M)
 fun Context.hasConnection(): Boolean {
     val result: Boolean
     val connectivityManager =

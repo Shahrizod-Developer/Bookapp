@@ -4,7 +4,6 @@ import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 import timber.log.Timber
 
-// Created by Jamshid Isoqov an 10/9/2022
 @HiltAndroidApp
 class App : Application() {
 

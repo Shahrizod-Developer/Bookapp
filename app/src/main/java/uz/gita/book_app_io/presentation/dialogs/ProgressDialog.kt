@@ -7,7 +7,6 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import uz.gita.book_app_io.databinding.DialogProgressBinding
 
-// Created by Jamshid Isoqov an 10/12/2022
 class ProgressDialog(ctx: Context) : Dialog(ctx) {
 
     private lateinit var binging: DialogProgressBinding

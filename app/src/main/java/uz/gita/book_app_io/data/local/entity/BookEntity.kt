@@ -5,7 +5,6 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import kotlinx.parcelize.Parcelize
 
-// Created by Jamshid Isoqov an 10/26/2022
 @Parcelize
 @Entity(tableName = "books")
 data class BookEntity(

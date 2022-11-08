@@ -12,7 +12,6 @@ import uz.gita.book_app_io.R
 import uz.gita.book_app_io.presentation.viewmodels.SplashViewModel
 import uz.gita.book_app_io.presentation.viewmodels.impl.SplashViewModelImpl
 
-// Created by Jamshid Isoqov an 10/26/2022
 @SuppressLint("CustomSplashScreen")
 @AndroidEntryPoint
 class SplashScreen : Fragment(R.layout.screen_splash) {

@@ -5,7 +5,6 @@ import android.content.SharedPreferences
 import uz.gita.book_app_io.utils.SharedPreference
 import javax.inject.Inject
 
-// Created by Jamshid Isoqov an 10/26/2022
 class MySharedPref @Inject constructor(
     ctx: Context,
     sharedPreferences: SharedPreferences

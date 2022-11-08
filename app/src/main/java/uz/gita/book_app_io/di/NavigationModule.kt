@@ -8,7 +8,6 @@ import uz.gita.book_app_io.navigation.NavigationDispatcher
 import uz.gita.book_app_io.navigation.NavigationHandler
 import uz.gita.book_app_io.navigation.Navigator
 
-// Created by Jamshid Isoqov an 10/9/2022
 
 @Module
 @InstallIn(SingletonComponent::class)

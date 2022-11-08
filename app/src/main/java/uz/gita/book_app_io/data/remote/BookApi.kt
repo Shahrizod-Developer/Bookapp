@@ -5,7 +5,6 @@ import uz.gita.book_app_io.data.remote.models.BookData
 import uz.gita.book_app_io.data.remote.models.ResultData
 import uz.gita.book_app_io.data.remote.models.UserData
 
-// Created by Jamshid Isoqov an 10/26/2022
 interface BookApi {
 
     fun getAllBooks(): Flow<ResultData<List<BookData>>>

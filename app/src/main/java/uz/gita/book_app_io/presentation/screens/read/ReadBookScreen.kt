@@ -18,7 +18,6 @@ import uz.gita.book_app_io.presentation.viewmodels.impl.ReadBookViewModelImpl
 import uz.gita.book_app_io.utils.showErrorDialog
 import java.io.File
 
-// Created by Jamshid Isoqov an 10/26/2022
 @AndroidEntryPoint
 class ReadBookScreen : Fragment(R.layout.screen_read_book) {
 

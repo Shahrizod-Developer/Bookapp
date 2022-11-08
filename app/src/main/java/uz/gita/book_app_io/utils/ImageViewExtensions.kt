@@ -11,8 +11,6 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
 
 
-// Created by Jamshid Isoqov an 8/10/2022
-
 
 @SuppressLint("UseCompatLoadingForDrawables")
 fun drawableStringToDrawable(ctx: Context, drawableString: String) =

@@ -23,7 +23,6 @@ import uz.gita.book_app_io.presentation.viewmodels.ProfileViewModel
 import uz.gita.book_app_io.presentation.viewmodels.impl.ProfileViewModelImpl
 import uz.gita.book_app_io.utils.Constants
 
-// Created by Jamshid Isoqov an 10/26/2022
 @AndroidEntryPoint
 class ProfilePage : Fragment(R.layout.page_profile) {
 

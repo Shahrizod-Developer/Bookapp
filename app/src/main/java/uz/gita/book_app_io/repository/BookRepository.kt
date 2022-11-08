@@ -6,7 +6,6 @@ import uz.gita.book_app_io.data.remote.models.ResultData
 import uz.gita.book_app_io.data.remote.models.UserData
 import uz.gita.book_app_io.repository.impl.Result
 
-// Created by Jamshid Isoqov an 10/26/2022
 interface BookRepository {
 
     fun getAllBooks(): Flow<List<BookEntity>>

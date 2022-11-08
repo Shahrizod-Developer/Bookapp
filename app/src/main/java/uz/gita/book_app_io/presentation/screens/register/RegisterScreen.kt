@@ -19,7 +19,6 @@ import uz.gita.book_app_io.presentation.viewmodels.impl.RegisterViewModelImpl
 import uz.gita.book_app_io.utils.snackBar
 import uz.gita.book_app_io.utils.toast
 
-// Created by Jamshid Isoqov an 10/26/2022
 @OptIn(FlowPreview::class)
 @AndroidEntryPoint
 class RegisterScreen : Fragment(R.layout.screen_register) {

@@ -4,7 +4,6 @@ import androidx.room.*
 import kotlinx.coroutines.flow.Flow
 import uz.gita.book_app_io.data.local.entity.BookEntity
 
-// Created by Jamshid Isoqov an 10/26/2022
 @Dao
 interface BookDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)

@@ -2,7 +2,6 @@ package uz.gita.book_app_io.data.remote.models
 
 import uz.gita.book_app_io.data.local.entity.BookEntity
 
-// Created by Jamshid Isoqov an 10/26/2022
 data class BookData(
     val id: String,
     val name: String,

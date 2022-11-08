@@ -11,7 +11,6 @@ import uz.gita.book_app_io.data.local.entity.BookEntity
 import uz.gita.book_app_io.databinding.ListItemBooksBinding
 import uz.gita.book_app_io.utils.inflate
 
-// Created by Jamshid Isoqov an 10/27/2022
 class BooksAdapter : ListAdapter<BookEntity, BooksAdapter.ViewHolder>(itemBookCallback) {
 
     private var itemClickListener: ((BookEntity) -> Unit)? = null

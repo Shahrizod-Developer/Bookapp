@@ -2,7 +2,6 @@ package uz.gita.book_app_io.presentation.viewmodels
 
 import androidx.lifecycle.LiveData
 
-// Created by Jamshid Isoqov an 8/9/2022
 interface ProfileViewModel {
 
     val nameLiveData: LiveData<String>

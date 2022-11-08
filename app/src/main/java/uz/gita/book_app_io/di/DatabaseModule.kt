@@ -18,7 +18,6 @@ import uz.gita.book_app_io.data.remote.BookApi
 import uz.gita.book_app_io.data.remote.impl.BookApiImpl
 import javax.inject.Singleton
 
-// Created by Jamshid Isoqov an 10/26/2022
 @Module
 @InstallIn(SingletonComponent::class)
 object DatabaseModule {

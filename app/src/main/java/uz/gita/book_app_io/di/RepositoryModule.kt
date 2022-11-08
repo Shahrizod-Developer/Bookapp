@@ -8,7 +8,6 @@ import uz.gita.book_app_io.repository.BookRepository
 import uz.gita.book_app_io.repository.impl.BookRepositoryImpl
 import javax.inject.Singleton
 
-// Created by Jamshid Isoqov an 10/26/2022
 @Module
 @InstallIn(SingletonComponent::class)
 interface RepositoryModule {

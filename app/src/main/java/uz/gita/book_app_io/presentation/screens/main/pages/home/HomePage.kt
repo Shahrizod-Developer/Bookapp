@@ -15,7 +15,6 @@ import uz.gita.book_app_io.databinding.PageHomeBinding
 import uz.gita.book_app_io.presentation.viewmodels.HomeViewModel
 import uz.gita.book_app_io.presentation.viewmodels.impl.HomeViewModelImpl
 
-// Created by Jamshid Isoqov an 10/26/2022
 @AndroidEntryPoint
 class HomePage : Fragment(R.layout.page_home) {
 

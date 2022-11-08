@@ -6,7 +6,6 @@ import android.os.Bundle
 import uz.gita.book_app_io.databinding.DialogErrorBinding
 import uz.gita.book_app_io.utils.config
 
-// Created by Jamshid Isoqov an 10/12/2022
 class ErrorDialog(ctx: Context, private val message: String) : Dialog(ctx) {
 
     private lateinit var binding: DialogErrorBinding

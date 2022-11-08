@@ -7,7 +7,6 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import uz.gita.book_app_io.databinding.DialogChangeNameBinding
 
-// Created by Jamshid Isoqov an 8/12/2022
 class ChangeNameDialog(ctx: Context, private val name: String) : Dialog(ctx) {
 
     private lateinit var binding: DialogChangeNameBinding

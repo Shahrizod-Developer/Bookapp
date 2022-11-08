@@ -17,7 +17,6 @@ import uz.gita.book_app_io.databinding.ScreenLoginBinding
 import uz.gita.book_app_io.presentation.viewmodels.LoginViewModel
 import uz.gita.book_app_io.presentation.viewmodels.impl.LoginViewModelImpl
 
-// Created by Jamshid Isoqov an 10/26/2022
 @OptIn(FlowPreview::class)
 @AndroidEntryPoint
 class LoginScreen : Fragment(R.layout.screen_login) {

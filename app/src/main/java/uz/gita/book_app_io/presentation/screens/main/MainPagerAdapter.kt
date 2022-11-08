@@ -9,7 +9,6 @@ import uz.gita.book_app_io.presentation.screens.main.pages.profile.ProfilePage
 import uz.gita.book_app_io.presentation.screens.main.pages.saved.SavedPage
 import uz.gita.book_app_io.presentation.screens.search.SearchScreen
 
-// Created by Jamshid Isoqov an 10/27/2022
 class MainPagerAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa) {
     override fun getItemCount(): Int = 4
 

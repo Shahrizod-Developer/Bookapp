@@ -14,7 +14,6 @@ import uz.gita.book_app_io.databinding.PageSavedBinding
 import uz.gita.book_app_io.presentation.viewmodels.SavedViewModel
 import uz.gita.book_app_io.presentation.viewmodels.impl.SavedViewModelImpl
 
-// Created by Jamshid Isoqov an 10/26/2022
 @AndroidEntryPoint
 class SavedPage : Fragment(R.layout.page_saved) {
 

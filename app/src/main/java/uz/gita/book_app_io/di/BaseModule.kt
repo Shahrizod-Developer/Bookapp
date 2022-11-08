@@ -8,7 +8,6 @@ import uz.gita.book_app_io.base.viewmodel.BaseViewModel
 import uz.gita.book_app_io.base.viewmodel.impl.BaseViewModelImpl
 import javax.inject.Singleton
 
-// Created by Jamshid Isoqov an 10/27/2022
 @Module
 @InstallIn(SingletonComponent::class)
 object BaseModule {

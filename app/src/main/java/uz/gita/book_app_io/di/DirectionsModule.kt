@@ -7,7 +7,6 @@ import dagger.hilt.android.components.ViewModelComponent
 import uz.gita.book_app_io.directions.*
 import uz.gita.book_app_io.directions.impl.*
 
-// Created by Jamshid Isoqov an 10/26/2022
 @Module
 @InstallIn(ViewModelComponent::class)
 interface DirectionsModule {

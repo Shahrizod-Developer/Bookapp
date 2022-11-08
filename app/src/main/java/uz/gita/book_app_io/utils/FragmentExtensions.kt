@@ -17,7 +17,6 @@ import uz.gita.book_app_io.MainActivity
 import uz.gita.book_app_io.presentation.dialogs.ErrorDialog
 import uz.gita.book_app_io.presentation.dialogs.MessageDialog
 
-// Created by Jamshid Isoqov an 10/12/2022
 
 
 fun Fragment.hideProgress() {
