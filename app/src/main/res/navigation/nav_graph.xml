@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        tools:layout="@layout/screen_splash"
+        android:name="uz.gita.book_app_io.presentation.screens.splash.SplashScreen"
+        android:label="SplashScreen" >
+        <action
+            android:id="@+id/action_splashScreen_to_loginScreen"
+            app:destination="@id/loginScreen"
+            app:popUpTo="@id/nav_graph" />
+        <action
+            android:id="@+id/action_splashScreen_to_mainScreen"
+            app:destination="@id/mainScreen"
+            app:popUpTo="@id/nav_graph" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginScreen"
+        tools:layout="@layout/screen_login"
+        android:name="uz.gita.book_app_io.presentation.screens.login.LoginScreen"
+        android:label="LoginScreen" >
+        <action
+            android:id="@+id/action_loginScreen_to_registerScreen"
+            app:destination="@id/registerScreen"
+            app:popUpTo="@id/nav_graph" />
+        <action
+            android:id="@+id/action_loginScreen_to_mainScreen"
+            app:destination="@id/mainScreen"
+            app:popUpTo="@id/nav_graph" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerScreen"
+        tools:layout="@layout/screen_register"
+        android:name="uz.gita.book_app_io.presentation.screens.register.RegisterScreen"
+        android:label="RegisterScreen" >
+        <action
+            android:id="@+id/action_registerScreen_to_loginScreen"
+            app:destination="@id/loginScreen"
+            app:popUpTo="@id/nav_graph" />
+        <action
+            android:id="@+id/action_registerScreen_to_mainScreen"
+            app:destination="@id/mainScreen"
+            app:popUpTo="@id/nav_graph" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainScreen"
+        tools:layout="@layout/screen_main"
+        android:name="uz.gita.book_app_io.presentation.screens.main.MainScreen"
+        android:label="MainScreen" >
+        <action
+            android:id="@+id/action_mainScreen_to_bookDetailsScreen"
+            app:destination="@id/bookDetailsScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookDetailsScreen"
+        tools:layout="@layout/screen_book_details"
+        android:name="uz.gita.book_app_io.presentation.screens.details.BookDetailsScreen"
+        android:label="BookDetailsScreen" >
+        <argument
+            android:name="book"
+            app:argType="uz.gita.book_app_io.data.local.entity.BookEntity" />
+        <action
+            android:id="@+id/action_bookDetailsScreen_to_readBookScreen"
+            app:destination="@id/readBookScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/readBookScreen"
+        tools:layout="@layout/screen_read_book"
+        android:name="uz.gita.book_app_io.presentation.screens.read.ReadBookScreen"
+        android:label="ReadBookScreen" >
+        <argument
+            android:name="books"
+            app:argType="uz.gita.book_app_io.data.local.entity.BookEntity" />
+    </fragment>
+</navigation>
